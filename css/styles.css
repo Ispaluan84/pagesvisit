@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;   
+    
+}
+
+.container {
+    box-shadow: -18px 28px 24px 0px rgba(80,117,171,1);
+    border-radius: 10px;
+    background-color: #fcb21fc9;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.content {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 30px;
+   
+}
+
+h1 {
+    text-align: center;
+
+}
+button {
+    box-shadow: -19px 16px 24px -8px rgba(80,117,171,0.73);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
